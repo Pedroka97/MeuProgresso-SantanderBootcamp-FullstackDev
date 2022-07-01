@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Fundamentos - align content</title>
+    <style>
+      .container {
+        height: 350px;
+        max-width: 300px;
+        display: flex;
+        flex-wrap: wrap;
+        border: 2px solid black;
+      }
+
+      .item {
+        background-color: orange;
+        padding: 5px;
+        flex: 1;
+        text-align: center;
+        color: white;
+        margin: 5px;
+      }
+
+      .stretch {
+        align-content: stretch;
+      }
+
+      .center {
+        align-content: center;
+      }
+
+      .flex-start{
+        align-content: flex-start;
+      }
+
+      .flex-end{
+        align-content: flex-end;
+      }
+
+      .space-between{
+        align-content: space-between;
+      }
+
+      .space-around{
+        align-content: space-around;
+      }
+    </style>
+  </head>
+  <body>
+    <p>stretch</p>
+    <div class="container stretch">
+      <div class="item">im ex Saepe, unde!</div>
+      <div class="item">orum molestiae!odio.</div>
+      <div class="item">enda laborum?</div>
+      <div class="item">sectetur adipisicing ?</div>
+      <div class="item">io, placeat nesse molestias!</div>
+      <div class="item">ime adipisci optio a</div>
+      <div class="item">et consectetur adipisici</div>
+    </div>
+
+    <p>center</p>
+    <div class="container center">
+      <div class="item">im ex Saepe, unde!</div>
+      <div class="item">orum molestiae!odio.</div>
+      <div class="item">enda laborum?</div>
+      <div class="item">sectetur adipisicing ?</div>
+      <div class="item">io, placeat nesse molestias!</div>
+      <div class="item">ime adipisci optio a</div>
+      <div class="item">et consectetur adipisici</div>
+    </div>
+    <p>flex-start</p>
+    <div class="container flex-start">
+      <div class="item">im ex Saepe, unde!</div>
+      <div class="item">orum molestiae!odio.</div>
+      <div class="item">enda laborum?</div>
+      <div class="item">sectetur adipisicing ?</div>
+      <div class="item">io, placeat nesse molestias!</div>
+      <div class="item">ime adipisci optio a</div>
+      <div class="item">et consectetur adipisici</div>
+    </div>
+    <p>flex-end</p>
+    <div class="container flex-end">
+      <div class="item">im ex Saepe, unde!</div>
+      <div class="item">orum molestiae!odio.</div>
+      <div class="item">enda laborum?</div>
+      <div class="item">sectetur adipisicing ?</div>
+      <div class="item">io, placeat nesse molestias!</div>
+      <div class="item">ime adipisci optio a</div>
+      <div class="item">et consectetur adipisici</div>
+    </div>
+    <p>space between</p>
+    <div class="container space-between">
+      <div class="item">im ex Saepe, unde!</div>
+      <div class="item">orum molestiae!odio.</div>
+      <div class="item">enda laborum?</div>
+      <div class="item">sectetur adipisicing ?</div>
+      <div class="item">io, placeat nesse molestias!</div>
+      <div class="item">ime adipisci optio a</div>
+      <div class="item">et consectetur adipisici</div>
+    </div>
+    <p>space around</p>
+    <div class="container space-around">
+      <div class="item">im ex Saepe, unde!</div>
+      <div class="item">orum molestiae!odio.</div>
+      <div class="item">enda laborum?</div>
+      <div class="item">sectetur adipisicing ?</div>
+      <div class="item">io, placeat nesse molestias!</div>
+      <div class="item">ime adipisci optio a</div>
+      <div class="item">et consectetur adipisici</div>
+    </div>
+  </body>
+</html>
