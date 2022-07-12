@@ -16,4 +16,7 @@ Desafio de Projeto:
 
 Este módulo contém os Cursos:
  - **Introdução a criação de websites com HTML5 CSS3**
+ - **Posicionando elementos com Flexbox em CSS**
 
+Desafio de Projeto:
+ - **Recriando a página inicial do Instagram.** 
